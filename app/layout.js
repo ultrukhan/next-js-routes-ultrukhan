@@ -1,4 +1,5 @@
 import './globals.css';
+import Shell from './shell';
 
 export const metadata = {
   title: 'React Routes',
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <Shell>{children}</Shell>
       </body>
     </html>
   );
